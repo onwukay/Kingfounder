@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Mail, Phone, MapPin, Globe, Play, Camera } from "lucide-react";
 
 export default function Footer() {
@@ -21,29 +22,36 @@ export default function Footer() {
 
           <ul className="mt-4 space-y-3 text-slate-300">
             <li>
-              <a href="#" className="hover:text-blue-400">
+              <Link href="/" className="transition hover:text-blue-400">
                 Home
-              </a>
+              </Link>
             </li>
+
             <li>
-              <a href="#" className="hover:text-blue-400">
+              <Link href="/about" className="transition hover:text-blue-400">
                 About
-              </a>
+              </Link>
             </li>
+
             <li>
-              <a href="#" className="hover:text-blue-400">
+              <Link href="/programs" className="transition hover:text-blue-400">
                 Programs
-              </a>
+              </Link>
             </li>
+
             <li>
-              <a href="#" className="hover:text-blue-400">
+              <Link
+                href="/resources"
+                className="transition hover:text-blue-400"
+              >
                 Resources
-              </a>
+              </Link>
             </li>
+
             <li>
-              <a href="#" className="hover:text-blue-400">
+              <Link href="/contact" className="transition hover:text-blue-400">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

@@ -20,7 +20,7 @@ export default function Hero() {
 
       <div className="absolute left-1/2 top-52 h-[300px] w-[300px] -translate-x-1/2 rounded-full bg-blue-400/10 blur-[150px]" />
 
-      <div className="relative z-10 mx-auto flex min-h-[90vh] max-w-7xl flex-col items-center justify-start px-6 pt-36 pb-16 text-center">
+      <div className="relative z-10 mx-auto flex min-h-[90vh] max-w-7xl flex-col items-center justify-start px-6 pt-6 pb-16 text-center md:pt-16">
         <div className="mb-8 rounded-full border border-yellow-400/30 bg-slate-900/70 px-6 py-3 text-sm font-medium text-yellow-300 shadow-lg shadow-yellow-500/20 backdrop-blur-md">
           🌍 Raising the Next Generation of Transformational Leaders
         </div>

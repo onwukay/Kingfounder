@@ -16,7 +16,7 @@ export default function AboutPage() {
 
       <main className="bg-[#020617] text-white">
         {/* Hero */}
-        <section className="px-6 pb-20 pt-32">
+        <section className="px-6 pb-20 pt-6 md:pt-16">
           <div className="mx-auto max-w-5xl text-center">
             <div className="mb-8 inline-flex rounded-full border border-blue-400/30 bg-slate-900/70 px-6 py-3 text-sm font-medium uppercase tracking-[0.3em] text-blue-300">
   ABOUT KINGFOUNDER

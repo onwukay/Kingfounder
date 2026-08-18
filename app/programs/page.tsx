@@ -47,7 +47,7 @@ export default function ProgramsPage() {
 
       <main className="bg-[#020617] text-white">
         {/* Hero */}
-        <section className="px-6 pb-20 pt-32">
+        <section className="px-6 pb-20 pt-6 md:pt-16">
           <div className="mx-auto max-w-5xl text-center">
             <div className="inline-flex rounded-full border border-blue-500/20 bg-blue-500/10 px-5 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-blue-300">
               KINGFOUNDER Programs

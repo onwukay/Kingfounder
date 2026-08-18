@@ -1,12 +1,10 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/sections/Footer";
 import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
 
 export const metadata = {
   title: "Contact",
-  description:
-    "Connect with KINGFOUNDER and begin your leadership journey.",
+  description: "Connect with KINGFOUNDER and begin your leadership journey.",
 };
 
 export default function ContactPage() {
@@ -16,7 +14,7 @@ export default function ContactPage() {
 
       <main className="bg-[#020617] text-white">
         {/* Hero */}
-        <section className="px-6 pb-20 pt-32">
+        <section className="px-6 pb-20 pt-6 md:pt-16">
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-8 inline-flex rounded-full border border-yellow-400/30 bg-slate-900/70 px-6 py-3 text-sm font-medium uppercase tracking-[0.3em] text-yellow-300">
               CONTACT KINGFOUNDER

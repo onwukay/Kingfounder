@@ -40,8 +40,8 @@ export default function ResourcesPage() {
     <>
       <Navbar />
 
-      <main className="min-h-screen bg-[#020617] pt-32 text-white">
-        <section className="mx-auto max-w-7xl px-6 py-20 text-center">
+      <main className="min-h-screen bg-[#020617] pt-6 text-white md:pt-16">
+        <section className="mx-auto max-w-7xl px-6 pt-6 pb-20 text-center md:pt-16">
           <div className="mb-6 inline-flex rounded-full border border-blue-500/30 bg-blue-500/10 px-5 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-blue-300">
             KINGFOUNDER Resources
           </div>
