@@ -14,6 +14,7 @@ import CTA from "@/sections/CTA";
 import Footer from "@/sections/Footer";
 import VisionMission from "@/sections/VisionMission";
 import CoreValues from "@/sections/CoreValues";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <Founder />
       <CTA />
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }

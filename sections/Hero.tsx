@@ -50,13 +50,19 @@ export default function Hero() {
 
         {/* Buttons */}
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-          <button className="rounded-full bg-blue-500 px-8 py-4 text-lg font-semibold shadow-lg shadow-blue-500/30 transition hover:scale-105 hover:bg-blue-600">
+          <a
+            href="/programs"
+            className="rounded-full bg-blue-500 px-8 py-4 text-lg font-semibold"
+          >
             Start Your Leadership Journey →
-          </button>
+          </a>
 
-          <button className="rounded-full border border-yellow-400 px-8 py-4 text-lg font-semibold text-yellow-400 transition hover:bg-yellow-400 hover:text-slate-900">
-            Become a Mentor
-          </button>
+          <a
+  href="/contact"
+  className="rounded-full border border-yellow-400 px-8 py-4 text-lg font-semibold"
+>
+  Become a Mentor
+</a>
         </div>
 
         {/* Statistics */}

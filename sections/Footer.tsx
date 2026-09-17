@@ -1,3 +1,4 @@
+import { FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail, Phone, MapPin, Globe, Play, Camera } from "lucide-react";
@@ -5,7 +6,7 @@ import { Mail, Phone, MapPin, Globe, Play, Camera } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="border-t border-slate-800 bg-[#010816] text-white">
-      <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:grid-cols-4">
+      <div className="mx-auto grid w-full max-w-7xl min-w-0 gap-12 px-6 py-16 md:grid-cols-4">
         {/* Brand */}
         <div>
           <Image src="/logo2.png" alt="KINGFOUNDER" width={170} height={70} />
@@ -90,13 +91,24 @@ export default function Footer() {
           </div>
 
           {/* Social Icons */}
-          <div className="mt-6 flex gap-4">
+          <div className="flex flex-wrap gap-2">
             {/* Facebook / Website */}
             <a
               href="#"
-              className="rounded-full bg-slate-900 p-3 transition hover:bg-blue-500/20"
+              className="rounded-full bg-slate-900 p-2 md:p-3 transition hover:bg-blue-500/20"
             >
-              <Globe className="h-5 w-5" />
+              <Globe className="h-4 w-4 md:h-5 md:w-5" />
+            </a>
+
+            {/* WhatsApp */}
+            <a
+              href="https://wa.me/2349126590125?text=Hello%20KINGFOUNDER,%20I%20would%20like%20to%20connect%20with%20you."
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Chat with KINGFOUNDER on WhatsApp"
+              className="rounded-full bg-slate-900 p-3 transition hover:bg-green-500/20"
+            >
+              <FaWhatsapp className="h-5 w-5" />
             </a>
 
             {/* Instagram */}
@@ -106,7 +118,7 @@ export default function Footer() {
               rel="noreferrer"
               className="rounded-full bg-slate-900 p-3 transition hover:bg-pink-500/20"
             >
-              <Camera className="h-5 w-5" />
+              <FaInstagram className="h-5 w-5" />
             </a>
 
             {/* YouTube */}
@@ -116,7 +128,7 @@ export default function Footer() {
               rel="noreferrer"
               className="rounded-full bg-slate-900 p-3 transition hover:bg-red-500/20"
             >
-              <Play className="h-5 w-5" />
+              <FaYoutube className="h-5 w-5" />
             </a>
           </div>
         </div>

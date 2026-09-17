@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/sections/Footer";
-import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
-
+import { Mail, Phone, MapPin } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 export const metadata = {
   title: "Contact",
   description: "Connect with KINGFOUNDER and begin your leadership journey.",
@@ -88,10 +88,43 @@ export default function ContactPage() {
                 rel="noreferrer"
                 className="mt-10 inline-flex items-center gap-3 rounded-full bg-green-500 px-6 py-4 font-semibold text-white transition hover:bg-green-600"
               >
-                <MessageCircle className="h-5 w-5" />
+                <FaWhatsapp className="h-5 w-5" />
                 Chat on WhatsApp
               </a>
             </div>
+
+            {/* Become a Mentor */}
+<div className="mb-10 rounded-3xl border border-yellow-400/20 bg-slate-900/60 p-8 backdrop-blur-sm">
+  <div className="mx-auto max-w-3xl text-center">
+    <span className="mb-4 inline-block rounded-full border border-yellow-400/30 bg-yellow-400/10 px-4 py-2 text-sm font-semibold text-yellow-300">
+      BECOME A MENTOR
+    </span>
+
+    <h2 className="text-3xl font-bold text-white md:text-4xl">
+      Become a Mentor. Shape a Life.
+    </h2>
+
+    <p className="mx-auto mt-4 max-w-2xl text-slate-300">
+      Your experience, knowledge, and encouragement could help a young person
+      discover their voice, build confidence, and become the leader they were
+      created to be.
+    </p>
+
+    <p className="mx-auto mt-4 max-w-2xl text-slate-300">
+      At KINGFOUNDER, we believe leadership grows faster when people are willing
+      to pour into others.
+    </p>
+
+    <a
+      href="https://wa.me/2349126590125?text=Hello%20KINGFOUNDER,%20I%20am%20interested%20in%20becoming%20a%20mentor.%20I%20would%20like%20to%20learn%20more."
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-8 inline-flex items-center justify-center rounded-full bg-yellow-400 px-7 py-3 font-semibold text-slate-900 transition hover:bg-yellow-300"
+    >
+      I Want to Become a Mentor →
+    </a>
+  </div>
+</div>
 
             {/* Contact Form */}
             <div className="rounded-3xl border border-slate-800 bg-slate-900/60 p-8 backdrop-blur">

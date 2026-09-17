@@ -77,7 +77,7 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <Link
-          href="/contact"
+          href="https://t.me/+pgzQd6QfZARlMTVk"
           className="hidden rounded-full bg-yellow-400 px-6 py-3 font-semibold text-slate-900 transition-all duration-200 hover:-translate-y-0.5 hover:bg-yellow-500 md:block"
         >
           Join Community
@@ -140,7 +140,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="/contact"
+              href="https://t.me/+pgzQd6QfZARlMTVk"
               onClick={closeMenu}
               className="mt-3 rounded-full bg-yellow-400 px-6 py-3 text-center font-semibold text-slate-900 transition hover:bg-yellow-500"
             >
